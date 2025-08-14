@@ -36,7 +36,7 @@ The application is automatically deployed to GitHub Pages on every push to the m
 
 1. Clone the repository:
 ```bash
-git clone git@github.com:codedstrings/fcc-markdown-previewer.git
+git clone https://github.com/codedstrings/fcc-markdown-previewer.git
 cd fcc-markdown-previewer
 ```
 
