@@ -1,12 +1,85 @@
-# React + Vite
+# Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time markdown editor and previewer built with React. This project was built as part of the FreeCodeCamp Frontend Development Libraries certification.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application is automatically deployed to GitHub Pages on every push to the main branch.
 
-## Expanding the ESLint configuration
+**[View Live Demo →](https://codedstrings.github.io/fcc-markdown-previewer/)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- **Real-time Preview**: See your markdown rendered as HTML instantly as you type
+- **GitHub Flavored Markdown**: Full support for GFM including tables, strikethrough, and more
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Dark Theme**: Modern dark UI that's easy on the eyes
+- **Line Break Support**: Converts carriage returns to line breaks automatically
+- **Syntax Highlighting**: Code blocks are properly formatted and highlighted
+
+
+## 🛠️ Built With
+
+- **[React](https://reactjs.org/)** - Frontend framework
+- **[Vite](https://vitejs.dev/)** - Build tool and development server
+- **[Marked](https://marked.js.org/)** - Markdown parser and compiler
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (version 18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone git@github.com:codedstrings/fcc-markdown-previewer.git
+cd fcc-markdown-previewer
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` directory.
+
+## 📁 Project Structure
+
+```
+├── src/
+│   ├── App.jsx          # Main application component
+│   ├── App.css          # Application styles
+│   └── main.jsx         # React entry point
+├── public/              # Static assets
+├── .github/
+│   └── workflows/
+│       └── deploy.yml   # GitHub Actions deployment workflow
+├── package.json         # Project dependencies and scripts
+└── README.md           # This file
+```
+
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+⭐ If you found this project helpful, please give it a star!
